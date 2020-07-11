@@ -28,13 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define SSD1306OLED
-
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
-#undef TAPPING_TERM
-#define TAPPING_TERM 200
+#define TAPPING_TERM 100
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -50,4 +47,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLED_NUM 14    // Number of LEDs
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
-*/ 
+*/
